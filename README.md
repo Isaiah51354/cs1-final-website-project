@@ -28,8 +28,8 @@ Your final project is to use all your HTML and CSS skills to create a stylish, m
 ## Code Style
 - [ ] Correct and consistent code indentation i.e. HTML tags indented when inside another tag, CSS rulesets indented inside selectors
 - [ ] Correct capitalization (HTML tags should all be lowercase)
-- [ ] Class and id used for styling extensively
-- [ ] No syntax errors (e.g. misspelled HTML tags, missing end tags, empty tags, misspelled CSS properties, etc.)
+- [ ] Class and/or id used for styling extensively (```class="my-class"``` in HTML is styled using ```.my-class``` in CSS)
+- [ ] No syntax errors (e.g. misspelled HTML tags, missing end tags, empty tags, misspelled CSS properties, missing```:``` or ```;``` in CSS, etc.)
 
 ## Content
 - [ ] Content is organized around a central theme or purpose
