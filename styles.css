@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+body {
+
+    font-family: "Figtree";
+}
+
+h1,h1,h3 {
+    font-family: ""
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    font-size: 100px;
+    color: black;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotateY(0deg);
+    }
+    100% {
+        transform: rotateY(360deg);
+    }
+}
+
+h1{
+    /* animation: spin 2s linear infinite; */
+    filter:drop-shadow(2px 10px 2px red);
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding: 20px;
+    font-size: 18px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    gap: 100px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
